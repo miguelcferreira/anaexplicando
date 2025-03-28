@@ -96,8 +96,8 @@ setInterval(nextSlide, 5000);
 
 
 // // Google Analitics
-// window.dataLayer = window.dataLayer || [];
-// function gtag(){dataLayer.push(arguments);}
-// gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-// gtag('config', 'G-8VH1F0BD1X');
+gtag('config', 'G-');
